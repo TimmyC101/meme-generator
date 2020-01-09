@@ -1,0 +1,35 @@
+.flex-row {
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-evenly;
+}
+
+input, button {
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: -2px;
+}
+
+.meme {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    font-weight: 800;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-transform: uppercase;
+}
+
+.top, .bottom {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.top {
+    top: 2%;
+}
+
+.bottom {
+    bottom: 5%;
+}
